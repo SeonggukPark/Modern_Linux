@@ -1,0 +1,6 @@
+[Unit]
+Description=My Greeting Service
+
+[Service]
+Type=oneshot
+ExecStart=/home/ubuntu/Linux_study/CH6_App_Package_Container/greeter.sh
